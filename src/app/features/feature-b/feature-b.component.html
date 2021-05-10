@@ -1,0 +1,12 @@
+<h2 class="p-mb-4">{{'app-b.feature-b' | translate}}</h2>
+<ng-container *ngIf="featureBModel">
+  <p>Model: {{featureBModel.model}}</p>
+</ng-container>
+<p-splitter [style]="{'height': '300px'}">
+  <ng-template pTemplate>
+    Panel 1
+  </ng-template>
+  <ng-template pTemplate>
+    Panel 2
+  </ng-template>
+</p-splitter>
